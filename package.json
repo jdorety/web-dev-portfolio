@@ -1,0 +1,27 @@
+{
+  "name": "web-dev-portfolio",
+  "version": "1.0.0",
+  "description": "Jonathan Dorety's Web Development Portfolio",
+  "main": "index.html",
+  "dependencies": {
+    "bulma": "^0.8.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyullog/web-dev-portfolio.git"
+  },
+  "author": "Jonathan Dorety",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyullog/web-dev-portfolio/issues"
+  },
+  "homepage": "https://github.com/kyullog/web-dev-portfolio#readme"
+}
