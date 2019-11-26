@@ -1,0 +1,35 @@
+body {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* .title {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+} */
+
+.icon-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.devicons {
+  max-width: 75px;
+  width: 100%;
+}
+
+#avatar {
+  max-width: 300px;
+  width: 100%;
+}
+
+#introduction {
+  background-image: url(../assets/nasa-starfield.jpg);
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: left;
+}

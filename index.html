@@ -4,31 +4,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Hosting on GitHub?</title>
+    <title>Jonathan Dorety</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
     />
+    <link rel="stylesheet" href="styles/index.css" />
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
     ></script>
   </head>
   <body>
-    <h1>I'm testing gitpages deployment & Bulma</h1>
-    <div class="columns">
-      <div class="column">
-        This is the first column
+    <nav>
+      <navbar>
+        <div class="container"></div>
+      </navbar>
+    </nav>
+    <section class="section" id="introduction">
+      <div class="hero">
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns is-centered is-gapless">
+                <div class="column is-half">
+                  <h1 class="title is-1">Jonathan Dorety</h1>
+                  <h2 class="subtitle">Full Stack Web Developer</h2>
+                </div>
+              <div class="column is-one-quarter">
+                <img src="assets/avatar.jpg" id="avatar" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="column">
-        This is the second column
+    </section>
+    <section class="section" id="languages">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column">
+            <h3 class="title">
+              HTML/CSS/JS
+            </h3>
+            <div class="container icon-row">
+              <img
+                src="assets/devicons/html5-plain-wordmark.svg"
+                class="devicons"
+              />
+              <img src="assets/devicons/css3-original.svg" class="devicons" />
+              <img
+                src="assets/devicons/javascript-plain.svg"
+                class="devicons"
+              />
+            </div>
+            <p>
+              Static webpage creation, styling preprocessors (LESS, SASS),
+              JavaScript libraries (PixiJS)
+            </p>
+          </div>
+          <div class="column">
+            <h3 class="title">
+              I know React
+            </h3>
+            <div class="container icon-row">
+              <img src="assets/devicons/react-original.svg" class="devicons" />
+            </div>
+          </div>
+          <div class="column">
+            <h3 class="title">
+              Node / Express JS
+            </h3>
+            <img src="assets/devicons/nodejs-plain.svg" class="devicons" />
+          </div>
+        </div>
       </div>
-      <div class="column">
-        This is the third column
+    </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <span>Exciting, isn't it?</span>
       </div>
-    </div>
-    <footer>
-      <span>Exciting, isn't it?</span>
     </footer>
   </body>
 </html>
