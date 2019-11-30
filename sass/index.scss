@@ -1,6 +1,7 @@
 body {
   background-image: url(../assets/nasa-starfield.jpg);
   background-size: cover;
+  background-attachment: fixed;
   background-position-y: center;
   background-position-x: left;
 }
@@ -13,7 +14,7 @@ body {
 .icon-wrap {
   margin: 8px auto 8px auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .devicons {
