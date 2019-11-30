@@ -1,22 +1,15 @@
 body {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
   background-image: url(../assets/nasa-starfield.jpg);
   background-size: cover;
   background-position-y: center;
   background-position-x: left;
-
 }
 
-/* .title {
-  text-align: center;
+.page-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
-
-.subtitle {
-  text-align: center;
-} */
-
 .icon-wrap {
   margin: 8px auto 8px auto;
   display: flex;
@@ -28,9 +21,7 @@ body {
   width: 100%;
 }
 
-
 #avatar {
   max-width: 300px;
   width: 100%;
 }
-
