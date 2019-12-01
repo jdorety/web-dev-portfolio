@@ -6,7 +6,6 @@ const picDiv = document.getElementById("avatar");
 picDiv.appendChild(app.view);
 const myFilter = new PIXI.filters.CRTFilter();
 myFilter.noise = 0.4;
-myFilter.noiseSize = 0.1;
 myFilter.lineContrast = 0.75
 myFilter.seed = Math.random();
 myFilter.vignetting = 0.4;
@@ -21,7 +20,7 @@ app.stage.addChild(avatar);
 
 app.ticker.add(() => {
     myFilter.seed = Math.random();
-    myFilter.time = 0.3
+    myFilter.time = 1.0
 })
 // while (true) {
 //   myFilter.seed = Math.random();
