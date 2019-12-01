@@ -4,6 +4,7 @@
   "description": "Jonathan Dorety's Web Development Portfolio",
   "main": "index.html",
   "dependencies": {
+    "@pixi/filter-crt": "^3.0.3",
     "bulma": "^0.8.0"
   },
   "devDependencies": {
