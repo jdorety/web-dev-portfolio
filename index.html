@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="has-navbar-fixed-top">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,25 +14,30 @@
     <script src="https://cdn.jsdelivr.net/npm/pixi-filters@latest/dist/pixi-filters.js"></script>
   </head>
   <body>
+    <header>
+    <nav>
+      <navbar class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a href="mailto:jonathan.dorety@gmail.com">
+            <span class="icon is-large">
+              <i class="far fa-envelope contact-icon" ></i>
+            </span>
+          </a>
+          <a href="https://www.linkedin.com/in/doretydev/">
+            <span class="icon is-large">
+              <i class="fab fa-linkedin contact-icon" ></i>
+            </span>
+          </a>
+          <a href="https://github.com/kyullog">
+          <span class="icon is-large">
+            <i class="fab fa-github contact-icon"></i>
+          </span>
+          </a>
+        </div>
+      </navbar>
+    </nav>
+  </header>
     <div class="page-wrapper">
-      <header>
-      <nav>
-        <navbar class="navbar" role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">
-            <a href="mailto:jonathan.dorety@gmail.com">
-              <span class="icon">
-                <i class="far fa-envelope" ></i>
-              </span>
-            </a>
-            <a href="https://www.linkedin.com/in/doretydev/">
-              <span class="icon">
-                <i class="fab fa-linkedin" ></i>
-              </span>
-            </a>
-          </div>
-        </navbar>
-      </nav>
-    </header>
       <section class="section" id="introduction">
         <div class="hero">
           <div class="container">
@@ -115,7 +120,7 @@
                   />
                 </figure>
                 <figure class="image is-64x64">
-                  <img src="assets/devicons/postgresql-plain.svg" class="devicons" />
+                  <img src="assets/devicons/postgresql-original.svg" class="devicons" />
                 </figure>
               </div>
               <article class="message is-medium">

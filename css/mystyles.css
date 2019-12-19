@@ -4007,7 +4007,7 @@ a.list-item {
   padding: 20px; }
 
 .navbar {
-  background-color: white;
+  background-color: #080f0f;
   min-height: 3.25rem;
   position: relative;
   z-index: 30; }
@@ -4626,7 +4626,7 @@ a.navbar-item,
   .navbar-link::after {
     display: none; }
   .navbar-menu {
-    background-color: white;
+    background-color: #080f0f;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0; }
     .navbar-menu.is-active {
@@ -6561,6 +6561,9 @@ body {
 .devicons {
   max-width: 75px;
   width: 100%; }
+
+.contact-icon {
+  font-size: 24px; }
 
 #avatar {
   max-width: 300px;
