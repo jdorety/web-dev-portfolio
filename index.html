@@ -1,140 +1,171 @@
 <!DOCTYPE html>
 <html lang="en" class="has-navbar-fixed-top">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jonathan Dorety</title>
+    <link rel="stylesheet" href="./css/mystyles.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.3/pixi.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi-filters@latest/dist/pixi-filters.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Jonathan Dorety</title>
-  <link rel="stylesheet" href="./css/mystyles.css" />
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.3/pixi.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/pixi-filters@latest/dist/pixi-filters.js"></script>
-</head>
-
-<body>
-  <header>
-    <nav>
-      <navbar class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a href="mailto:jonathan.dorety@gmail.com">
-            <span class="icon is-large">
-              <i class="far fa-envelope contact-icon"></i>
-            </span>
-          </a>
-          <a href="https://www.linkedin.com/in/doretydev/">
-            <span class="icon is-large">
-              <i class="fab fa-linkedin contact-icon"></i>
-            </span>
-          </a>
-          <a href="https://github.com/kyullog">
-            <span class="icon is-large">
-              <i class="fab fa-github contact-icon"></i>
-            </span>
-          </a>
-        </div>
-      </navbar>
-    </nav>
-  </header>
-  <div class="page-wrapper">
-    <section class="section" id="introduction">
-      <div class="hero is-primary">
-        <div class="container">
-          <div class="hero-body">
-            <div class="container">
-              <div class="columns">
-                <div class="column">
-                  <h1 class="title is-1">Jonathan Dorety</h1>
-                  <h2 class="subtitle ">Full Stack Web Developer</h2>
-                </div>
-                <!-- <div class="column avatar-container">
+  <body>
+    <header>
+      <nav>
+        <navbar
+          class="navbar is-fixed-top"
+          role="navigation"
+          aria-label="main navigation"
+        >
+          <div class="navbar-brand">
+            <a href="mailto:jonathan.dorety@gmail.com">
+              <span class="icon is-large">
+                <i class="far fa-envelope contact-icon"></i>
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/doretydev/">
+              <span class="icon is-large">
+                <i class="fab fa-linkedin contact-icon"></i>
+              </span>
+            </a>
+            <a href="https://github.com/kyullog">
+              <span class="icon is-large">
+                <i class="fab fa-github contact-icon"></i>
+              </span>
+            </a>
+          </div>
+        </navbar>
+      </nav>
+    </header>
+    <div class="page-wrapper">
+      <section class="section" id="introduction">
+        <div class="hero is-primary">
+          <div class="container">
+            <div class="hero-body">
+              <div class="container">
+                <div class="columns">
+                  <div class="column">
+                    <h1 class="title is-1">Jonathan Dorety</h1>
+                    <h2 class="subtitle ">Full Stack Web Developer</h2>
+                  </div>
+                  <!-- <div class="column avatar-container">
                   <div id="avatar" class="container"></div>
                 </div> -->
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="section" id="skills">
-      <div class="container section-header">
-        <h3 class="title">Skills</h3>
-      </div>
-      <div class="container">
-        <div class="columns is-centered">
-          <div class="column">
-            <div class="container devicon-wrap">
-              <figure class="image is-64x64">
-                <img src="assets/devicons/html5-plain-wordmark.svg" class="devicons" />
-              </figure>
-              <figure class="image is-64x64">
-                <img src="assets/devicons/css3-original.svg" class="devicons" />
-              </figure>
-              <figure class="image is-64x64">
-                <img src="assets/devicons/javascript-plain.svg" class="devicons" />
-              </figure>
+      </section>
+      <section class="section" id="skills">
+        <div class="container section-header">
+          <h2 class="title">Skills</h2>
+        </div>
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column">
+              <div class="container devicon-wrap">
+                <figure class="image is-64x64">
+                  <img
+                    src="assets/devicons/html5-plain-wordmark.svg"
+                    class="devicons"
+                  />
+                </figure>
+                <figure class="image is-64x64">
+                  <img
+                    src="assets/devicons/css3-original.svg"
+                    class="devicons"
+                  />
+                </figure>
+                <figure class="image is-64x64">
+                  <img
+                    src="assets/devicons/javascript-plain.svg"
+                    class="devicons"
+                  />
+                </figure>
+              </div>
+              <article class="message is-medium">
+                <div class="message-header">
+                  Static web development
+                </div>
+                <div class="message-body">
+                  Semantic HTML, responsive design, styling preprocessors (LESS,
+                  SASS), design frameworks (Bulma, Bootstrap), JavaScript
+                  development
+                </div>
+              </article>
             </div>
-            <article class="message is-medium">
-              <div class="message-header">
-                Static web development
+            <div class="column">
+              <div class="container devicon-wrap">
+                <figure class="image is-64x64">
+                  <img
+                    src="assets/devicons/react-original.svg"
+                    class="devicons"
+                  />
+                </figure>
               </div>
-              <div class="message-body">
-                Semantic HTML, responsive design, styling preprocessors (LESS,
-                SASS), design frameworks (Bulma, Bootstrap), JavaScript
-                development
-              </div>
-            </article>
-          </div>
-          <div class="column">
-            <div class="container devicon-wrap">
-              <figure class="image is-64x64">
-                <img src="assets/devicons/react-original.svg" class="devicons" />
-              </figure>
+              <article class="message is-medium">
+                <div class="message-header">
+                  Single-page Applications
+                </div>
+                <div class="message-body">
+                  UI development (React), state management (Redux), component
+                  frameworks,
+                </div>
+              </article>
             </div>
-            <article class="message is-medium">
-              <div class="message-header">
-                Single-page Applications
+            <div class="column">
+              <div class="container devicon-wrap">
+                <figure class="image is-64x64">
+                  <img
+                    src="assets/devicons/nodejs-plain.svg"
+                    class="devicons"
+                  />
+                </figure>
+                <figure class="image is-64x64">
+                  <img
+                    src="assets/devicons/postgresql-original.svg"
+                    class="devicons"
+                  />
+                </figure>
               </div>
-              <div class="message-body">
-                UI development (<a class=href="https://reactjs.org">React</a>),
-                state management (Redux), component frameworks,
-              </div>
-            </article>
-          </div>
-          <div class="column">
-            <div class="container devicon-wrap">
-              <figure class="image is-64x64">
-                <img src="assets/devicons/nodejs-plain.svg" class="devicons" />
-              </figure>
-              <figure class="image is-64x64">
-                <img src="assets/devicons/postgresql-original.svg" class="devicons" />
-              </figure>
+              <article class="message is-medium">
+                <div class="message-header">
+                  Backend Development
+                </div>
+                <div class="message-body">
+                  RESTful API development (NodeJS, Express), databases
+                  (PostgreSQL, Firebase Cloudstore)
+                </div>
+              </article>
             </div>
-            <article class="message is-medium">
-              <div class="message-header">
-                Backend Development
-              </div>
-              <div class="message-body">
-                RESTful API development (NodeJS, Express), databases (PostgreSQL, Firebase Cloudstore)
-              </div>
-            </article>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- <section class="section" id="projects">
-      <div class="container section-header">
-        <h2 class="title">Projects</h3>
-      </div>
-    </section> -->
-  </div>
-  <footer class="footer">
-    <div class="content">
-      <p>&copy; Jonathan Dorety 2019</p>
+      </section>
+      <section class="section" id="projects">
+        <div class="container section-header">
+          <h2 class="title">Projects</h2>
+        </div>
+        <div class="columns">
+          <div class="column"></div>
+          <div class="column"></div>
+        </div>
+        <div class="columns">
+          <div class="column"></div>
+          <div class="column"></div>
+        </div>
+      </section>
     </div>
-  </footer>
-  <script src="scripts/index.js"></script>
-
-</body>
-
+    <footer class="footer">
+      <div class="content">
+        <p>&copy; Jonathan Dorety 2019</p>
+      </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+  </body>
 </html>
