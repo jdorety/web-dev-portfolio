@@ -31,17 +31,15 @@ body {
       max-width: 900px;
       margin: 0 auto;
       width: 100%;
-      justify-content: space-between;
-      align-items: stretch;
+      // justify-content: space-between;
+      // align-items: center;
 
       div .project-pic {
         max-width: 400px;
         width: 100%;
+        margin: 0 auto;
       }
       .column {
-
-        
-
         img .project-pic {
           border-radius: 6px;
         }
@@ -59,5 +57,12 @@ body {
     max-width: 300px;
     width: 100%;
     z-index: 0;
+  }
+
+  @media (min-width: 768px) {
+    .reverse-mobile {
+      flex-direction: row-reverse;
+    }
+
   }
 }

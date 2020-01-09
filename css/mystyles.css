@@ -6563,12 +6563,11 @@ body {
   body #projects .columns {
     max-width: 900px;
     margin: 0 auto;
-    width: 100%;
-    justify-content: space-between;
-    align-items: stretch; }
+    width: 100%; }
     body #projects .columns div .project-pic {
       max-width: 400px;
-      width: 100%; }
+      width: 100%;
+      margin: 0 auto; }
     body #projects .columns .column img .project-pic {
       border-radius: 6px; }
     body #projects .columns .column .project-descriptor .description-contents {
@@ -6577,3 +6576,6 @@ body {
     max-width: 300px;
     width: 100%;
     z-index: 0; }
+  @media (min-width: 768px) {
+    body .reverse-mobile {
+      flex-direction: row-reverse; } }
