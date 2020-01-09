@@ -6560,6 +6560,10 @@ body {
     font-size: 24px; }
   body .section-header {
     margin-bottom: 40px; }
+  body #projects .project-pic {
+    border-radius: 6px; }
+  body #projects .project-descriptor .description-contents {
+    font-size: 1.5rem; }
   body #avatar {
     max-width: 300px;
     width: 100%;

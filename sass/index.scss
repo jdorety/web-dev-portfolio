@@ -26,6 +26,18 @@ body {
     margin-bottom: 40px;
   }
 
+  #projects {
+    .project-pic {
+      border-radius: 6px;
+    }
+
+    .project-descriptor {
+      .description-contents {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
   #avatar {
     max-width: 300px;
     width: 100%;
