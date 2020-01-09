@@ -27,13 +27,30 @@ body {
   }
 
   #projects {
-    .project-pic {
-      border-radius: 6px;
-    }
+    .columns {
+      max-width: 900px;
+      margin: 0 auto;
+      width: 100%;
+      justify-content: space-between;
+      align-items: stretch;
 
-    .project-descriptor {
-      .description-contents {
-        font-size: 1.5rem;
+      div .project-pic {
+        max-width: 400px;
+        width: 100%;
+      }
+      .column {
+
+        
+
+        img .project-pic {
+          border-radius: 6px;
+        }
+
+        .project-descriptor {
+          .description-contents {
+            font-size: 1.5rem;
+          }
+        }
       }
     }
   }
