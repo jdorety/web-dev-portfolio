@@ -28,30 +28,24 @@
                 <i class="fas fa-home fa-lg"></i>
               </span>
             </a>
+            <a
+              role="button"
+              class="navbar-burger"
+              data-target="navMenu"
+              aria-label="menu"
+              aria-expanded="false"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
           </div>
-          <div class="navbar-menu">
-            <div class="navbar-start">
+          <div class="navbar-menu" id="navMenu">
+            <div class="navbar-end">
               <a href="/contact" class="navbar-item">
                 Contact
               </a>
               <a href="/about" class="navbar-item"> About</a>
-            </div>
-            <div class="navbar-end">
-              <a href="mailto:jonathan.dorety@gmail.com" class="navbar-item" target="_blank">
-                <span class="icon is-large">
-                  <i class="far fa-envelope contact-icon"></i>
-                </span>
-              </a>
-              <a href="https://www.linkedin.com/in/doretydev/" class="navbar-item" target="_blank">
-                <span class="icon is-large">
-                  <i class="fab fa-linkedin contact-icon"></i>
-                </span>
-              </a>
-              <a href="https://github.com/kyullog" class="navbar-item" target="_blank">
-                <span class="icon is-large">
-                  <i class="fab fa-github contact-icon"></i>
-                </span>
-              </a>
             </div>
           </div>
         </navbar>
@@ -210,7 +204,26 @@
     </div>
     <footer class="footer">
       <div class="content">
-        <p>&copy; Jonathan Dorety 2019</p>
+        <div class="footer-content-wrapper">
+          <p>&copy; Jonathan Dorety 2019</p>
+          <div class="contact-icons">
+            <a href="mailto:jonathan.dorety@gmail.com" target="_blank">
+              <span class="icon is-large">
+                <i class="far fa-envelope contact-icon"></i>
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/doretydev/" target="_blank">
+              <span class="icon is-large">
+                <i class="fab fa-linkedin contact-icon"></i>
+              </span>
+            </a>
+            <a href="https://github.com/kyullog" target="_blank">
+              <span class="icon is-large">
+                <i class="fab fa-github contact-icon"></i>
+              </span>
+            </a>
+          </div>
+        </div>
         <a href="https://bulma.io">
           <img
             src="https://bulma.io/images/made-with-bulma--dark.png"

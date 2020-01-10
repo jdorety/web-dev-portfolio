@@ -36,9 +36,10 @@ $input-shadow: none;
 $navbar-background-color: $rich-black;
 $box-background-color: $smoky-black;
 $navbar-item-hover-background-color: $rich-black;
-
+$navbar-breakpoint: 768px;
 // Message variables
 $message-background-color: $smoky-black;
 // Import only what you need from Bulma
 @import "../node_modules/bulma/bulma.sass";
+@import "./global.scss";
 @import "./index.scss";
