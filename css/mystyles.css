@@ -4027,7 +4027,7 @@ a.list-item {
       border-color: #0a0a0a; }
     .navbar.is-white .navbar-burger {
       color: #0a0a0a; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) {
       .navbar.is-white .navbar-start > .navbar-item,
       .navbar.is-white .navbar-start .navbar-link,
       .navbar.is-white .navbar-end > .navbar-item,
@@ -4072,7 +4072,7 @@ a.list-item {
       border-color: white; }
     .navbar.is-black .navbar-burger {
       color: white; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) {
       .navbar.is-black .navbar-start > .navbar-item,
       .navbar.is-black .navbar-start .navbar-link,
       .navbar.is-black .navbar-end > .navbar-item,
@@ -4117,7 +4117,7 @@ a.list-item {
       border-color: rgba(0, 0, 0, 0.7); }
     .navbar.is-light .navbar-burger {
       color: rgba(0, 0, 0, 0.7); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) {
       .navbar.is-light .navbar-start > .navbar-item,
       .navbar.is-light .navbar-start .navbar-link,
       .navbar.is-light .navbar-end > .navbar-item,
@@ -4162,7 +4162,7 @@ a.list-item {
       border-color: #fff; }
     .navbar.is-dark .navbar-burger {
       color: #fff; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) {
       .navbar.is-dark .navbar-start > .navbar-item,
       .navbar.is-dark .navbar-start .navbar-link,
       .navbar.is-dark .navbar-end > .navbar-item,
@@ -4207,7 +4207,7 @@ a.list-item {
       border-color: #fff; }
     .navbar.is-primary .navbar-burger {
       color: #fff; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) {
       .navbar.is-primary .navbar-start > .navbar-item,
       .navbar.is-primary .navbar-start .navbar-link,
       .navbar.is-primary .navbar-end > .navbar-item,
@@ -4252,7 +4252,7 @@ a.list-item {
       border-color: #fff; }
     .navbar.is-link .navbar-burger {
       color: #fff; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) {
       .navbar.is-link .navbar-start > .navbar-item,
       .navbar.is-link .navbar-start .navbar-link,
       .navbar.is-link .navbar-end > .navbar-item,
@@ -4297,7 +4297,7 @@ a.list-item {
       border-color: #fff; }
     .navbar.is-info .navbar-burger {
       color: #fff; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) {
       .navbar.is-info .navbar-start > .navbar-item,
       .navbar.is-info .navbar-start .navbar-link,
       .navbar.is-info .navbar-end > .navbar-item,
@@ -4342,7 +4342,7 @@ a.list-item {
       border-color: #fff; }
     .navbar.is-success .navbar-burger {
       color: #fff; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) {
       .navbar.is-success .navbar-start > .navbar-item,
       .navbar.is-success .navbar-start .navbar-link,
       .navbar.is-success .navbar-end > .navbar-item,
@@ -4387,7 +4387,7 @@ a.list-item {
       border-color: rgba(0, 0, 0, 0.7); }
     .navbar.is-warning .navbar-burger {
       color: rgba(0, 0, 0, 0.7); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) {
       .navbar.is-warning .navbar-start > .navbar-item,
       .navbar.is-warning .navbar-start .navbar-link,
       .navbar.is-warning .navbar-end > .navbar-item,
@@ -4432,7 +4432,7 @@ a.list-item {
       border-color: #fff; }
     .navbar.is-danger .navbar-burger {
       color: #fff; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) {
       .navbar.is-danger .navbar-start > .navbar-item,
       .navbar.is-danger .navbar-start .navbar-link,
       .navbar.is-danger .navbar-end > .navbar-item,
@@ -4561,7 +4561,7 @@ a.navbar-item,
   .navbar-link:focus-within,
   .navbar-link:hover,
   .navbar-link.is-active {
-    background-color: #fafafa;
+    background-color: #080f0f;
     color: #ed217c; }
 
 .navbar-item {
@@ -4616,7 +4616,7 @@ a.navbar-item,
   height: 2px;
   margin: 0.5rem 0; }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   .navbar > .container {
     display: block; }
   .navbar-brand .navbar-item,
@@ -4653,7 +4653,7 @@ a.navbar-item,
   body.has-navbar-fixed-bottom-touch {
     padding-bottom: 3.25rem; } }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .navbar,
   .navbar-menu,
   .navbar-start,
@@ -4793,7 +4793,7 @@ a.navbar-item,
   .navbar-link.is-active:not(:focus):not(:hover) {
     background-color: transparent; }
   .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #fafafa; } }
+    background-color: #080f0f; } }
 
 .hero.is-fullheight-with-navbar {
   min-height: calc(100vh - 3.25rem); }
@@ -6549,33 +6549,48 @@ body {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto; }
-  body .devicon-wrap {
-    margin: 8px auto 8px auto;
+  body nav .navbar-burger {
+    margin-top: 5px; }
+  body footer .footer-content-wrapper {
     display: flex;
-    justify-content: space-evenly; }
-  body .devicons {
-    max-width: 75px;
-    width: 100%; }
-  body .contact-icon {
+    justify-content: space-between;
+    align-items: flex-start; }
+  body footer .contact-icons {
+    display: flex;
+    justify-content: start; }
+  body footer .contact-icon {
     font-size: 24px; }
-  body .section-header {
-    margin-bottom: 40px; }
-  body #projects .columns {
-    max-width: 900px;
-    margin: 0 auto;
-    width: 100%; }
-    body #projects .columns div .project-pic {
-      max-width: 400px;
-      width: 100%;
-      margin: 0 auto; }
-    body #projects .columns .column img .project-pic {
-      border-radius: 6px; }
-    body #projects .columns .column .project-descriptor .description-contents {
-      font-size: 1.5rem; }
-  body #avatar {
-    max-width: 300px;
+
+body .devicon-wrap {
+  margin: 8px auto 8px auto;
+  display: flex;
+  justify-content: space-evenly; }
+
+body .devicons {
+  max-width: 75px;
+  width: 100%; }
+
+body .section-header {
+  margin-bottom: 40px; }
+
+body #projects .columns {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%; }
+  body #projects .columns div .project-pic {
+    max-width: 400px;
     width: 100%;
-    z-index: 0; }
-  @media (min-width: 768px) {
-    body .reverse-mobile {
-      flex-direction: row-reverse; } }
+    margin: 0 auto; }
+  body #projects .columns .pic-wrapper {
+    padding: 0.1rem; }
+  body #projects .columns .project-descriptor .description-contents {
+    font-size: 1.5rem; }
+
+body #avatar {
+  max-width: 300px;
+  width: 100%;
+  z-index: 0; }
+
+@media (min-width: 768px) {
+  body .reverse-mobile {
+    flex-direction: row-reverse; } }
