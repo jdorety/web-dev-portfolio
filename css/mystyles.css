@@ -6581,9 +6581,9 @@ body #projects .columns {
     max-width: 400px;
     width: 100%;
     margin: 0 auto; }
-  body #projects .columns .column img .project-pic {
-    border-radius: 6px; }
-  body #projects .columns .column .project-descriptor .description-contents {
+  body #projects .columns .pic-wrapper {
+    padding: 0.1rem; }
+  body #projects .columns .project-descriptor .description-contents {
     font-size: 1.5rem; }
 
 body #avatar {

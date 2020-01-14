@@ -10,7 +10,6 @@ body {
     width: 100%;
   }
 
-
   .section-header {
     margin-bottom: 40px;
   }
@@ -28,15 +27,14 @@ body {
         width: 100%;
         margin: 0 auto;
       }
-      .column {
-        img .project-pic {
-          border-radius: 6px;
-        }
 
-        .project-descriptor {
-          .description-contents {
-            font-size: 1.5rem;
-          }
+      .pic-wrapper {
+        padding: 0.1rem;
+      }
+
+      .project-descriptor {
+        .description-contents {
+          font-size: 1.5rem;
         }
       }
     }
@@ -48,11 +46,9 @@ body {
     z-index: 0;
   }
 
-
   @media (min-width: 768px) {
     .reverse-mobile {
       flex-direction: row-reverse;
     }
-
   }
 }
