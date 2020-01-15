@@ -6594,3 +6594,10 @@ body #avatar {
 @media (min-width: 768px) {
   body .reverse-mobile {
     flex-direction: row-reverse; } }
+
+#about {
+  margin-top: 100px; }
+  #about .image {
+    max-width: 128px;
+    width: 100%;
+    margin: 0 auto; }
