@@ -6586,6 +6586,9 @@ body #projects .columns {
   body #projects .columns .project-descriptor .description-contents {
     font-size: 1.5rem; }
 
+body #projects a h3:hover {
+  text-decoration: underline; }
+
 body #avatar {
   max-width: 300px;
   width: 100%;
@@ -6596,7 +6599,7 @@ body #avatar {
     flex-direction: row-reverse; } }
 
 #about {
-  margin-top: 100px; }
+  padding-top: 100px; }
   #about .image {
     max-width: 128px;
     width: 100%;
