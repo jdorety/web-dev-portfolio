@@ -38,6 +38,12 @@ body {
         }
       }
     }
+
+    a {
+      h3:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   #avatar {
