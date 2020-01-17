@@ -1,0 +1,36 @@
+// Set your brand colors
+// $purple: #8a4d76;
+// $pink: #fa7c91;
+// $brown: #757763;
+// $beige-light: #d0d1cd;
+// $beige-lighter: #eff0eb;
+// $light-black: #1b2224;
+// $lighter-black: #282a36;
+$rich-black: #080f0f;
+$smoky-black: #070707;
+$blue-green: #119da4;
+$tiffany-blue: #03b5aa;
+$barbie-pink: #ed217c;
+
+// Update Bulma's global variables
+// $family-sans-serif: "Nunito", sans-serif;
+$primary: $blue-green;
+$link: $barbie-pink;
+$success: $tiffany-blue;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$title-color: $barbie-pink;
+$text: $blue-green;
+
+// Update some of Bulma's component variables
+$body-background-color: $smoky-black;
+$footer-background-color: $smoky-black;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$navbar-background-color: $smoky-black;
+$box-background-color: $rich-black;
+$navbar-breakpoint: 768px;
+$background: $rich-black;
+// Message variables
+$message-background-color: $rich-black;
