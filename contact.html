@@ -63,6 +63,8 @@
               <input
                 class="input has-background-black-ter has-text-primary"
                 type="text"
+                required="required"
+                name="name"
               />
             </div>
           </div>
@@ -73,6 +75,8 @@
               <input
                 class="input has-background-black-ter has-text-primary"
                 type="email"
+                required="required"
+                name="email"
               />
               <span class="icon is-small is-left">
                 <i class="fas fa-envelope"></i>
@@ -84,13 +88,18 @@
             <label class="label has-text-info">Subject</label>
             <div class="control">
               <div class="select has-ba">
-                <select class="has-background-black-ter has-text-primary">
+                <select
+                  class="has-background-black-ter has-text-primary"
+                  name="subject"
+                >
                   <option>Select subject</option>
                   <option>Employment</option>
                   <option>Feedback</option>
                   <option>Other</option>
                 </select>
-                <p class="is-danger" id="subject-warning" >Please Select a Subject</p>
+                <p class="is-danger" id="subject-warning">
+                  Please Select a Subject
+                </p>
               </div>
             </div>
           </div>
@@ -100,13 +109,15 @@
             <div class="control">
               <textarea
                 class="textarea has-background-black-ter has-text-info"
+                required="required"
+                name="message"
               ></textarea>
             </div>
           </div>
 
           <div class="field is-grouped">
             <div class="control">
-              <button class="button is-link">Submit</button>
+              <button type="submit" class="button is-link">Submit</button>
             </div>
             <!-- <div class="control">
               <button class="button is-link is-light">Cancel</button>
