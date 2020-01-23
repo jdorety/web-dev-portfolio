@@ -67,9 +67,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+// Dynamic copyright year
 const now = new Date();
 const thisYear = now.getFullYear();
-console.log(thisYear);
 const copyright = document.getElementById("copyright");
-console.log(copyright);
 copyright.append(thisYear)
