@@ -6551,6 +6551,8 @@ body {
     margin: 0 auto; }
   body nav .navbar-burger {
     padding-top: 5px; }
+  body nav navbar {
+    padding: 0 3%; }
   body footer .footer-content-wrapper {
     display: flex;
     justify-content: space-between;
