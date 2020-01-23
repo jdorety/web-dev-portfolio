@@ -6562,6 +6562,8 @@ body {
     justify-content: start; }
   body footer .contact-icon {
     font-size: 32px; }
+  body footer .copyright-wrapper {
+    margin-bottom: 10px; }
 
 body .devicon-wrap {
   margin: 8px auto 8px auto;
@@ -6585,8 +6587,16 @@ body #projects .columns {
     margin: 0 auto; }
   body #projects .columns .pic-wrapper {
     padding: 0.1rem; }
-  body #projects .columns .project-descriptor .description-contents {
-    font-size: 1.5rem; }
+  body #projects .columns .project-descriptor {
+    position: relative; }
+    body #projects .columns .project-descriptor .description-contents {
+      font-size: 1.5rem;
+      display: block;
+      margin-bottom: 10px; }
+    body #projects .columns .project-descriptor .repo-link {
+      position: absolute;
+      right: 1%;
+      bottom: 1px; }
 
 body #projects a h3:hover {
   text-decoration: underline; }
