@@ -4,11 +4,11 @@
   "description": "Jonathan Dorety's Web Development Portfolio",
   "main": "index.html",
   "dependencies": {
-    "@pixi/filter-crt": "^3.0.3",
-    "bulma": "^0.8.0"
+    "@pixi/filter-crt": "^3.1.1",
+    "bulma": "^0.8.2"
   },
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.14.1"
   },
   "scripts": {
     "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
