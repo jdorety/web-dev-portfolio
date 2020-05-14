@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Check if there are any navbar burgers
   if ($navbarBurgers.length > 0) {
     // Add a click event on each of them
-    $navbarBurgers.forEach(el => {
+    $navbarBurgers.forEach((el) => {
       el.addEventListener("click", () => {
         // Get the target from the "data-target" attribute
         const target = el.dataset.target;
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
         $target.classList.toggle("is-active");
       });
     });
-    $navbarBurgers.forEach(el => {
+    $navbarBurgers.forEach((el) => {
       el.addEventListener("touch", () => {
         // Get the target from the "data-target" attribute
         const target = el.dataset.target;
@@ -71,4 +71,5 @@ document.addEventListener("DOMContentLoaded", () => {
 const now = new Date();
 const thisYear = now.getFullYear();
 const copyright = document.getElementById("copyright");
-copyright.append(thisYear)
+copyright.append(thisYear);
+
